@@ -1,9 +1,5 @@
 <template>
 <h3>Announcement:</h3>
-<a href="https://t.me/stinsiks">
-<h4><img src="https://i.postimg.cc/4dvRXYh3/EBC62-B2-C-53-AB-4186-8308-2-BC512688998.png" width="45px" height="45px"></h4>
-</a>
-
 <button class="all"><b>All</b><br><div class="line"></div></button>
 <button class="all"><RouterLink style="text-decoration: none; color: inherit;" to="/verif">Verif</RouterLink></button>
 <button class="all"><RouterLink style="text-decoration: none; color: inherit;" to="/program">Program</RouterLink></button>
