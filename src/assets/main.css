@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(36, 36, 44);
+  flex-direction: column;
+  -ms-user-select: none; 
+  -moz-user-select: none; 
+  -webkit-user-select: none; 
+  user-select: none;
+  display: flex;
+  flex-wrap: wrap;
+  }
