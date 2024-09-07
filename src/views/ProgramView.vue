@@ -67,7 +67,7 @@ h3 {
     }
     .line {
         background-color: #618ec2;
-        width: 70px;
+        width: 65px;
         height: 3px;
         margin-left: -3px;
     }
