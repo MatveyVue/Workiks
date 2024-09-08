@@ -21,8 +21,8 @@ button {
   
   .hello {
   border-radius: 20%;
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   margin-top: 30px;
   }
   
