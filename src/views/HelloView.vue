@@ -13,7 +13,7 @@ button {
   background-color: rgb(94, 124, 170);
   border: none;
   border-radius: 15px;
-  width: 400px;
+  width: 370px;
   height: 50px;
   margin-top: 140px;
   cursor: pointer;
