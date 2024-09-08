@@ -15,7 +15,7 @@ button {
   border-radius: 15px;
   width: 370px;
   height: 50px;
-  margin-top: 140px;
+  margin-top: 130px;
   cursor: pointer;
   }
   
