@@ -15,7 +15,7 @@ button {
   border-radius: 15px;
   width: 370px;
   height: 50px;
-  margin-top: 120px;
+  margin-top: 100px;
   cursor: pointer;
   }
   
@@ -23,7 +23,7 @@ button {
   border-radius: 20%;
   width: 350px;
   height: 350px;
-  margin-top: 50px;
+  margin-top: 30px;
   }
   
   h1 {
