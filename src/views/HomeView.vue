@@ -414,12 +414,12 @@ export default {
     async initializeFirebase() {
       try {
         const app = initializeApp({
-          apiKey: "AIzaSyAtS-g3wpuwz_DQF8XiDfDsT5xK6pFlqo4",
-          authDomain: "magazine-d1bc8.firebaseapp.com",
-          projectId: "magazine-d1bc8",
-          storageBucket: "magazine-d1bc8.firebasestorage.app",
-          messagingSenderId: "521332004559",
-          appId: "1:521332004559:web:64febc7b9abb30083fc9ba"
+          apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+          authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+          projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+          storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+          messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+          appId: import.meta.env.VITE_FIREBASE_APP_ID
         });
         this.db = getFirestore(app);
       } catch (error) {
